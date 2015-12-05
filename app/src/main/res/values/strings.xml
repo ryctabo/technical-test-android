@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Technical Test Android</string>
+    <string name="developed_by">Developed by</string>
+    <string name="name_develop">Gustavo Pacheco</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_people">People</string>
+    <string name="nav_item_org">Organizations</string>
+    <string name="nav_item_business">Business</string>
+    <string name="nav_item_activities">Activities</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_people</item>
+        <item>@string/nav_item_org</item>
+        <item>@string/nav_item_business</item>
+        <item>@string/nav_item_activities</item>
+    </string-array>
+
+    <string name="title_home">Home</string>
+    <string name="title_people">People</string>
+    <string name="title_org">Organizations</string>
+    <string name="title_business">Business</string>
+    <string name="title_activities">Activities</string>
 </resources>

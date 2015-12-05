@@ -17,7 +17,7 @@ public class Activity {
 
     private Person person;
 
-    private Bussines bussines;
+    private Business business;
 
     private Calendar dateTime;
 
@@ -26,13 +26,13 @@ public class Activity {
     }
 
     public Activity(String description, String type, Organization organization, Person person,
-                    Bussines bussines, Calendar dateTime) {
+                    Business business, Calendar dateTime) {
         this.id = Activity.ID++;
         this.description = description;
         this.type = type;
         this.organization = organization;
         this.person = person;
-        this.bussines = bussines;
+        this.business = business;
         this.dateTime = dateTime;
     }
 
@@ -68,12 +68,12 @@ public class Activity {
         this.person = person;
     }
 
-    public Bussines getBussines() {
-        return bussines;
+    public Business getBusiness() {
+        return business;
     }
 
-    public void setBussines(Bussines bussines) {
-        this.bussines = bussines;
+    public void setBusiness(Business business) {
+        this.business = business;
     }
 
     public Calendar getDateTime() {
