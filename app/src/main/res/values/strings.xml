@@ -2,6 +2,8 @@
     <string name="app_name">TechnicalTest Android</string>
     <string name="developed_by">Developed by</string>
     <string name="name_develop">Gustavo Pacheco</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
 
     <string name="nav_item_home">Home</string>
     <string name="nav_item_people">People</string>
@@ -22,4 +24,7 @@
     <string name="title_org">Organizations</string>
     <string name="title_business">Business</string>
     <string name="title_activities">Activities</string>
+
+    <string name="say">Hi!</string>
+    <string name="welcome">Welcome to your CRM.</string>
 </resources>
