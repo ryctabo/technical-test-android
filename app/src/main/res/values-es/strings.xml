@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prueba Técnica</string>
+    <string name="developed_by">Desarrollador por</string>
+    <string name="name_develop">Gustavo Pacheco</string>
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Cerrar</string>
+
+    <string name="nav_item_home">Inicio</string>
+    <string name="nav_item_people">Personas</string>
+    <string name="nav_item_org">Organizaciones</string>
+    <string name="nav_item_business">Negocios</string>
+    <string name="nav_item_activities">Actividades</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_people</item>
+        <item>@string/nav_item_org</item>
+        <item>@string/nav_item_business</item>
+        <item>@string/nav_item_activities</item>
+    </string-array>
+
+    <string name="title_home">Inicio</string>
+    <string name="title_people">Personas</string>
+    <string name="title_org">Organizaciones</string>
+    <string name="title_business">Negocios</string>
+    <string name="title_activities">Actividades</string>
+
+    <string name="say">¡Hola!</string>
+    <string name="welcome">Bienvenido a tu CRM.</string>
+
+    <string name="text_full_name">Nombre completo</string>
+    <string name="text_phone_number">Numero de télefono</string>
+    <string name="text_email">Correo electrónico</string>
+    <string name="text_organization_name">Nombre de la organización</string>
+    <string name="text_address">Dirección</string>
+    <string name="text_title">Título</string>
+    <string name="text_description">Descripción</string>
+    <string name="text_organization">Organización</string>
+    <string name="text_person">Persona</string>
+    <string name="text_value">Valor</string>
+    <string name="text_deadline">Fecha de cierre</string>
+    <string name="text_state">Estado</string>
+    <string name="text_type">Tipo</string>
+    <string name="text__business">Negocio</string>
+    <string name="text_date">Fecha</string>
+    <string name="text_time">Hora</string>
+
+    <string name="btn_save">Guardar</string>
+    <string name="btn_clean">Borrar</string>
+
+    <string name="text_person_fragment">Crear una persona</string>
+    <string name="text_organization_fragment">Crear una organización</string>
+    <string name="text_business_fragment">Crear un negocio</string>
+    <string name="text_activity_fragment">Crear una actividad</string>
+</resources>
