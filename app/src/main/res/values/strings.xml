@@ -1,3 +1,55 @@
 <resources>
-    <string name="app_name">Technical Test Android</string>
+    <string name="app_name">TechnicalTest Android</string>
+    <string name="developed_by">Developed by</string>
+    <string name="name_develop">Gustavo Pacheco</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_people">People</string>
+    <string name="nav_item_org">Organizations</string>
+    <string name="nav_item_business">Business</string>
+    <string name="nav_item_activities">Activities</string>
+
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_people</item>
+        <item>@string/nav_item_org</item>
+        <item>@string/nav_item_business</item>
+        <item>@string/nav_item_activities</item>
+    </string-array>
+
+    <string name="title_home">Home</string>
+    <string name="title_people">People</string>
+    <string name="title_org">Organizations</string>
+    <string name="title_business">Business</string>
+    <string name="title_activities">Activities</string>
+
+    <string name="say">Hi!</string>
+    <string name="welcome">Welcome to your CRM.</string>
+
+    <string name="text_full_name">Full Name</string>
+    <string name="text_phone_number">Phone Number</string>
+    <string name="text_email">Email</string>
+    <string name="text_organization_name">Organization Name</string>
+    <string name="text_address">Address</string>
+    <string name="text_title">Title</string>
+    <string name="text_description">Description</string>
+    <string name="text_organization">Organization</string>
+    <string name="text_person">Person</string>
+    <string name="text_value">Value</string>
+    <string name="text_deadline">Deadline</string>
+    <string name="text_state">State</string>
+    <string name="text_type">Type</string>
+    <string name="text__business">Business</string>
+    <string name="text_date">Date</string>
+    <string name="text_time">Time</string>
+
+    <string name="btn_save">Save</string>
+    <string name="btn_clean">Clean</string>
+
+    <string name="text_person_fragment">Create a person</string>
+    <string name="text_organization_fragment">Create a organization</string>
+    <string name="text_business_fragment">Create a business</string>
+    <string name="text_activity_fragment">Create a activity</string>
 </resources>
