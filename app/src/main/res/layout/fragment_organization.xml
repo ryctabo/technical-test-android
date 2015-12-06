@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:paddingLeft="20dp"
     android:paddingRight="20dp"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context="com.ryctabo.test.activity.OrganizationFragment">
 
     <TextView
         android:text="@string/text_organization_fragment"
@@ -54,11 +56,13 @@
         android:layout_height="wrap_content">
 
         <Button
+            android:id="@+id/btnSave"
             android:text="@string/btn_save"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
         <Button
+            android:id="@+id/btnClean"
             android:text="@string/btn_clean"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
