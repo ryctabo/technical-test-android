@@ -14,7 +14,7 @@ public class Business {
 
     private float value;
 
-    private Date closeDate;
+    private Date deadline;
 
     private String state;
 
@@ -22,13 +22,13 @@ public class Business {
     }
 
     public Business(String title, String description, Organization organization, Person person,
-                    float value, Date closeDate, String state) {
+                    float value, Date deadline, String state) {
         this.title = title;
         this.description = description;
         this.organization = organization;
         this.person = person;
         this.value = value;
-        this.closeDate = closeDate;
+        this.deadline = deadline;
         this.state = state;
     }
 
@@ -72,12 +72,12 @@ public class Business {
         this.value = value;
     }
 
-    public Date getCloseDate() {
-        return closeDate;
+    public Date getDeadline() {
+        return deadline;
     }
 
-    public void setCloseDate(Date closeDate) {
-        this.closeDate = closeDate;
+    public void setDeadline(Date deadline) {
+        this.deadline = deadline;
     }
 
     public String getState() {
